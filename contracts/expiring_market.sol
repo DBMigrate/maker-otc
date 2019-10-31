@@ -16,8 +16,7 @@
 
 pragma solidity ^0.4.18;
 
-import "ds-auth/auth.sol";
-
+import "./auth.sol";
 import "./simple_market.sol";
 
 // Simple Market with a market lifetime. When the close_time has been reached,

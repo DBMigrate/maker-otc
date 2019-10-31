@@ -16,8 +16,8 @@
 
 pragma solidity ^0.4.18;
 
-import "ds-math/math.sol";
-import "erc20/erc20.sol";
+import "./math.sol";
+import "./erc20.sol";
 
 contract EventfulMarket {
     event LogItemUpdate(uint id);

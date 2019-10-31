@@ -17,7 +17,7 @@
 pragma solidity ^0.4.18;
 
 import "./expiring_market.sol";
-import "ds-note/note.sol";
+import "./note.sol";
 
 contract MatchingEvents {
     event LogBuyEnabled(bool isEnabled);
@@ -663,4 +663,3 @@ contract MatchingMarket is MatchingEvents, ExpiringMarket, DSNote {
         return true;
     }
 }
-

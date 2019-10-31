@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@nayms/maker-otc",
+  "version": "1.0.0",
+  "description": "Modified version of maker-otc contracts for Nayms purposes.",
+  "main": "index.js",
+  "repository": "git@github.com:nayms/maker-otc.git",
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "license": "MIT",
+  "scripts": {
+    "devnet": "ganache-cli -a 10",
+    "compile": "yarn truffle compile"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.7.0"
+  }
+}
